@@ -1,0 +1,110 @@
+
+
+.main {
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.main p {
+    color: red;
+    padding-top: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: rgb(248, 233, 233);
+}
+
+.form {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+
+
+}
+
+.form input,
+textarea,
+button,
+option {
+
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form button {
+    color: white;
+    background-color: black;
+    border: 2px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form button:hover {
+    background-color: rgba(255, 0, 0, 0.664);
+}
+.location {
+flex: 1 1 30%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+margin-right: 15px;
+}
+.info-box {
+display: flex;
+align-items: center;
+gap: 20px;
+padding-bottom:5px ;
+
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+text-align: left;
+transition: transform 0.2s ease;
+}
+.info-box:hover {
+transform: translateY(-2px);
+}
+
+.location p {
+  
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+     gap: 20px;
+    
+    align-self: self-start;
+   
+}
+.info-box i {
+font-size: 1.5rem;
+color: #ff4b2b; 
+min-width: 30px;
+text-align: center;
+}
+.info-box p {
+margin: 0;
+font-size: 1rem;
+color: #333;
+}
+.ap{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
